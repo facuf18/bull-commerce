@@ -6,7 +6,6 @@ import {
   NavigationMenuLink,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
-import { ModeToggle } from '../ModeToggler';
 
 export default function Header() {
   return (
@@ -21,7 +20,6 @@ export default function Header() {
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
-          <ModeToggle />
         </NavigationMenuList>
       </NavigationMenu>
     </div>
